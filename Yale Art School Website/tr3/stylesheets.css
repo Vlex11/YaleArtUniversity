@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  height: 1080px;
+  width: auto;
+  overflow-y: hidden;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-image: url(/Assets/Background.png);
+  background-repeat: no-repeat;
+  background-position-y: -50vh;
+}
+
+/*Banner*/
+
+.banner {
+  position: relative;
+  margin-left: 10%;
+  background-color: #083248;
+}
+
+.banner h3 {
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+.banner #Twitter {
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.banner #Instagram {
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+.banner #Facebook {
+  margin-left: 5%;
+  margin-bottom: 13px;
+}
+
+/*navigation*/
+
+nav {
+  background-color: #083248;
+  height: 50px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  margin-left: 12%;
+  font-size: 22px;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo #call {
+  margin-bottom: 2.9%;
+  margin-left: 16%;
+}
+
+.logo #email {
+  margin-bottom: 2.5%;
+  margin-left: 15%;
+}
+
+.logo #location {
+  margin-bottom: 2%;
+  margin-left: 15%;
+}
+
+.bodyTXT {
+  position: absolute;
+}
+
+.bodyTXT #Welcome {
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.bodyTXT #LearnMore {
+  margin-left: 25%;
+  margin-top: 3%;
+}
